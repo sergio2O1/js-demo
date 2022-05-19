@@ -7,8 +7,8 @@ window.onload = function() {
             slideBlocks(true);
         },
         3000,
-    )
-}
+    );
+};
 
 function slideBlocks(forward) {
     const blockListElement = document.getElementById('block-list');
