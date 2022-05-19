@@ -23,8 +23,8 @@ function slideBlocks(forward) {
 }
 
 function addParagraph() {
-    const slider = document.getElementById('some-block');
+    const someBlock = document.getElementById('some-block');
     const paragraphNode = document.createElement('p');
     paragraphNode.innerText = 'Some paragraph added!';
-    slider.append(paragraphNode);
+    someBlock.append(paragraphNode);
 }
