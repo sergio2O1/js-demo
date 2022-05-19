@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>JS Slider Demo</h1>
+    <div id="slider"
+         class="slider"
+    >
+      <div id="block-list"
+           class="slider__block-list"
+      >
+        <div class="slider__block-item">
+          <h3>Title1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, distinctio dolore dolorem eaque error eum exercitationem ipsum magni modi nulla numquam possimus quibusdam quisquam repellat sint tempore, veniam voluptatem.</p>
+        </div>
+        <div class="slider__block-item">
+          <h3>Title2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut consectetur consequatur consequuntur corporis debitis earum, iste, labore molestias nihil pariatur quidem repellendus rerum, voluptas voluptate. Blanditiis fugiat itaque minima!</p>
+        </div>
+        <div class="slider__block-item">
+          <h3>Title3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error est ipsam quia. Ab alias commodi consectetur doloremque eum, expedita facere facilis impedit inventore, ipsa laboriosam nobis officiis, placeat quo tenetur.</p>
+        </div>
+        <div class="slider__block-item">
+          <h3>Title4</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eius enim labore modi molestias nemo nihil nulla, porro quis quo reprehenderit repudiandae, saepe, sed voluptates voluptatum? Adipisci nostrum voluptatem voluptatum!</p>
+        </div>
+        <div class="slider__block-item">
+          <h3>Title5</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam animi, autem culpa delectus eligendi harum laborum maiores minima modi optio possimus quae quisquam repellat sit sunt tempora ut vel!</p>
+        </div>
+      </div>
+      <button class="slider__action slider__action--prev"
+              onclick="slideBlocks()"></button>
+      <button class="slider__action slider__action--next"
+              onclick="slideBlocks(true)"></button>
+    </div>
+    <div id="some-block">
+      <button onclick="doSomething()">Нажми</button>
+    </div>
+  </body>
+</html>
